@@ -4,9 +4,21 @@
 
 
 
+@layer{
+    .container{
+        @apply px-[30px] mx-auto;
+    }
+}
+
+@layer{
+.element-center{
+    @apply flex justify-center items-center;
+}
+}
+
 body {
     font-family: "Raleway", sans-serif;
-    background-color: #1c2230;
+    background-color: #181e2a;
     color:#FFFF;
     height: 5000px;
     font-weight: normal;

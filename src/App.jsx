@@ -4,11 +4,11 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <h1 className=" font-bold ">
+    <div className=" font-bold ">
       <Header />
       <Home />
       <Footer />
-    </h1>
+    </div>
   );
 }
 

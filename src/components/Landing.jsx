@@ -1,23 +1,29 @@
 const Landing = () => {
   return (
-    <section>
-      <div className="container flex items-center flex-col gap-[30px]">
-        <div>
-          <img src="/src/assets/images/illustration-intro.png" alt="img" />
-        </div>
-        <div className="text-center">
-          <h1 className="text-[30px] md:text-[40px] font-semibold mb-[15px]">
-            All your files in one secure location, <br></br>
-            accessible anywhere ,
-          </h1>
-          <p className="">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ipsum,
-            cum dolor ut voluptates iste, nostrum atque incidunt reiciendis
-            cupiditate of
-          </p>
-        </div>
-        <div>
-          <button>Get Started</button>
+    <section className="bg-[#1c2230]">
+      <div className="container">
+        <div className="element-center flex-col">
+          <div className="w-[750px] max-w-full">
+            <img
+              src="/src/assets/images/illustration-intro.png"
+              alt="img"
+              className="w-full h-fit"
+            />
+          </div>
+          <div className="text-center">
+            <h1 className="text-[30px] md:text-[40px] font-semibold mb-[15px]">
+              All your files in one secure location, <br></br>
+              accessible anywhere ,
+            </h1>
+            <p className="font-normal text-lg px-[15px] md:w-[600px] max-w-full md:mx-auto">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+              ipsum, cum dolor ut voluptates iste, nostrum atque incidunt
+              reiciendis cupiditate of
+            </p>
+          </div>
+          <div>
+            <button>Get Started</button>
+          </div>
         </div>
       </div>
     </section>

@@ -8,10 +8,9 @@ const Header = () => {
       if (window.scrollY > 100) {
         headerRef.current.style.background = "#0c1524";
         headerRef.current.style.padding = "20px 0";
-      }else{
-        headerRef.current.style.background="transparent";
+      } else {
+        headerRef.current.style.background = "transparent";
         headerRef.current.style.padding = "60px 0";
-
       }
     });
   }, []);
@@ -20,7 +19,7 @@ const Header = () => {
       ref={headerRef}
       className="pt-[60px] fixed top-0 left-0 w-full  z-50 transition-all duration-200"
     >
-      <div className="container mx-auto flex items-center justify-between  gap-[30px] sm:gap-0 flex-col sm:flex-row">
+      <div className="container flex items-center justify-between  gap-[30px] sm:gap-0 flex-col sm:flex-row">
         <a href="/">
           <img src="/src/assets/images/logo.svg" alt="logo" />
         </a>
