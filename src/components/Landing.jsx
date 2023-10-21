@@ -2,7 +2,7 @@ const Landing = () => {
   return (
     <section className="bg-[#1c2230]">
       <div className="container">
-        <div className="element-center flex-col">
+        <div className="element-center flex-col pt-[200px]">
           <div className="w-[750px] max-w-full">
             <img
               src="/src/assets/images/illustration-intro.png"
