@@ -4,22 +4,22 @@ import FeatureBox from "./FeatureBox";
 const Features = () => {
   const [items, setItems] = useState([
     {
-      icon: "icon_access-anywhere",
+      icon: "icon-access-anywhere.svg",
       title: "Access your file anywhere",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicin",
     },
     {
-      icon: "icon_access-anywhere",
+      icon: "icon-access-anywhere.svg",
       title: "Access your file anywhere",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicin",
     },
     {
-      icon: "icon_access-anywhere",
+      icon: "icon-access-anywhere.svg",
       title: "Access your file anywhere",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicin",
     },
     {
-      icon: "icon_access-anywhere",
+      icon: "icon-access-anywhere.svg",
       title: "Access your file anywhere",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicin",
     },
@@ -27,10 +27,18 @@ const Features = () => {
 
   return (
     <section>
-      <div className="container">
-        {items.map((item) => (
-          <FeatureBox key={item.title} title={item.title} icon={item.icon} />
-        ))}
+      <div className="container bg-orange-950">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[100px] w-[850px] bg-red-400 mx-auto max-w-full">
+          {items.map((item) => (
+            <FeatureBox
+            
+              key={item.title}
+              title={item.title}
+              icon={item.icon}
+              desc={item.desc}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
