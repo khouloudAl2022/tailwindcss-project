@@ -27,8 +27,8 @@ const Features = () => {
 
   return (
     <section>
-      <div className="container bg-orange-950">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[100px] w-[850px] bg-red-400 mx-auto max-w-full">
+      <div className="container ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-[100px] w-[850px]  mx-auto max-w-full">
           {items.map((item) => (
             <FeatureBox
             
