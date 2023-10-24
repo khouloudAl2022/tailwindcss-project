@@ -7,6 +7,7 @@ const Home = () => {
     <Fragment>
       <Landing />
       <Features />
+      <StayProdutive/>
     </Fragment>
   );
 };
