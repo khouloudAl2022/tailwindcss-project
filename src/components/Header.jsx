@@ -3,6 +3,8 @@ import { useState, useEffect, useRef } from "react";
 const Header = () => {
   const [links, setLinks] = useState(["Features", "Team", "Sign in"]);
   const headerRef = useRef();
+
+  
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY > 100) {
