@@ -26,6 +26,9 @@ const Landing = () => {
           </div>
         </div>
       </div>
+      <div>
+        <img src="/src/assets/images/bg-curvy-desktop.svg" alt="cyrvy image" className="bg-red-600 w-full h-full" />
+      </div>
     </section>
   );
 };
