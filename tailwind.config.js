@@ -8,7 +8,14 @@ export default {
         primary: "#67dbda",
       },
       keyframes: {
-        moveRight: {},
+        moveRight: {
+          "0%": { transform: "translateX(0)" },
+          "50%": { transform: "translateX(10px)" },
+          "100%": { transform: "translateX(0)" },
+        },
+      },
+      animation: {
+        moveRight: "moveRight is ease-in-out infinite",
       },
       screens: {
         sm: "576px",
