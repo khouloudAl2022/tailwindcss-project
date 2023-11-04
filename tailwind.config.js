@@ -5,6 +5,10 @@ export default {
     extend: {
       colors: {
         mainColor: "#000",
+        primary: "#67dbda",
+      },
+      keyframes: {
+        moveRight: {},
       },
       screens: {
         sm: "576px",

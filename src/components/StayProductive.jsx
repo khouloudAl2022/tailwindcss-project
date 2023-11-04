@@ -1,7 +1,7 @@
 const StayProductive = () => {
   return (
     <section>
-      <div className="container grid grid-cols-1 md:grid-cols-2 gap-[30px]">
+      <div className="container grid grid-cols-1 md:grid-cols-2 gap-[30px] items-center">
         <div>
           <img
             src="/src/assets/images/illustration-stay-productive.png"
@@ -9,12 +9,12 @@ const StayProductive = () => {
           />
         </div>
         <div>
-          <h3>
+          <h3 className="font-medium text-[35px] leading-10">
             Stay productive, <br></br>
             wherever you are
           </h3>
-          <div>
-            <p>
+          <div className="font-normal text-sm my-4 tracking-[0.8px]">
+            <p className="mb-5">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatem neque, perspiciatis voluptas rem repellat delectus
               expedita nam eos ullam ex. At, nemo! Excepturi maiores quaerat
@@ -27,7 +27,7 @@ const StayProductive = () => {
               dolores, sunt possimus magnam.
             </p>
           </div>
-          <a href="/">
+          <a href="/" className="text-primary animate-bounce font-normal underline flex items-center gap-2 hover:text-sky-400 transition-colors duration-200">
             See how filo works
             <img
               src="/src/assets/images/icon-arrow.svg"
